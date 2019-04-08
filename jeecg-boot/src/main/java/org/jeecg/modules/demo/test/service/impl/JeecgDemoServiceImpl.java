@@ -38,7 +38,7 @@ public class JeecgDemoServiceImpl extends ServiceImpl<JeecgDemoMapper, JeecgDemo
 		pp2.setName("测试事务  小白兔 2");
 		jeecgDemoMapper.insert(pp2);
 		
-		Integer.parseInt("hello");//自定义异常
+//		Integer.parseInt("hello");//自定义异常
 		
 		JeecgDemo pp3 = new JeecgDemo();
 		pp3.setAge(3333);
